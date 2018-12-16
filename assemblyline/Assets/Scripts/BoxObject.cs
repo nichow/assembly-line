@@ -38,9 +38,12 @@ public class BoxObject : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
 	    var lineObjRenderer = other.gameObject.GetComponent<SpriteRenderer>();
+	    // If the object's sprite has already been changed (that is, already been pressed) then return
 	    if (lineObjRenderer.sprite == Box) return;
+	    
 	    lineObjRenderer.sprite = Box;
-
+		
+	    // Update score
 	    _scoreInt++;
 	    Score.text = _scoreInt.ToString();
     }
