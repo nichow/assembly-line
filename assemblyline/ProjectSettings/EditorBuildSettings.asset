@@ -8,4 +8,13 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/ForemanScene.unity
+    guid: c545eac531643d846b8ca3153e6b2e06
+  - enabled: 1
+    path: Assets/Scenes/AssemblyLineScene.unity
+    guid: f8ae8aa6a714c184a9b46ec823902e6d
+  - enabled: 1
+    path: Assets/Scenes/HomeScene.unity
+    guid: 601b3594b7f54324298b9b31a6c0a9cc
   m_configObjects: {}
